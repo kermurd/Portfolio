@@ -1,0 +1,94 @@
+*{padding: 0; margin: 0;}
+
+.progress {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-main);
+    background-color: #000;
+}
+
+.progress-text {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+    width: 14px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    font-family: var(--font-main);
+    font-size: 50px;
+}
+.loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 20px;
+    margin: auto;
+}
+
+.loader--dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    /* border: 1px solid white; */
+    background-color: black;
+    animation-name: loader;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.loader--dot:first-child {
+    background-color: #ffffff;
+    animation-delay: 0.5s;
+}
+
+.loader--dot:nth-child(2) {
+    background-color: #ffffff;
+    animation-delay: 0.4s;
+}
+
+.loader--dot:nth-child(3) {
+    background-color: #ffffff;
+    animation-delay: 0.3s;
+}
+
+.loader--dot:nth-child(4) {
+    background-color: #ffffff;
+    animation-delay: 0.2s;
+}
+
+.loader--dot:nth-child(5) {
+    background-color: #ffffff;
+    animation-delay: 0.1s;
+}
+
+.loader--dot:nth-child(6) {
+    background-color: #ffffff;
+    animation-delay: 0s;
+}
+
+@keyframes loader {
+    25% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+    75% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
