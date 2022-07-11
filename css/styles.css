@@ -659,6 +659,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  
 }
 .row > * {
   flex-shrink: 0;
@@ -1365,7 +1366,7 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 33.22222222222%;
   }
 
   .col-lg-5 {
@@ -7385,9 +7386,9 @@ textarea.form-control-lg {
   margin-left: 3rem !important;
 }
 
-.ms-auto {
+ .ms-auto {
   margin-left: auto !important;
-}
+} 
 
 .p-0 {
   padding: 0 !important;
@@ -7652,7 +7653,9 @@ textarea.form-control-lg {
 .text-center {
   text-align: center !important;
 }
-
+.text-left{
+  text-align: ;
+}
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -11535,10 +11538,10 @@ transition: 0.5s;
   font-size:30px ;
 }
 
-.text-border{
+/* .text-border{
   border-bottom: 3px solid red;
 
-}
+} */
 .top-masthead{
 padding-top: 30px;
 text-align: left;
@@ -11550,4 +11553,7 @@ line-height: 20px;
 font-size: 30px;
 
 
+}
+.his{
+  padding-top: 20px;
 }
