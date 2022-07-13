@@ -15,8 +15,12 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -31,7 +35,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Team Project</a></li>
                     </ul>
                 </div>
             </div>
@@ -164,7 +168,8 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- skill header---------------------------------------------------------------------------------------------------------------------------------------------------->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary text-border mb-0 " >skill</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary text-border mb-0 " >Team Project</h2>
+
                 <!-- Icon -->
                 <div class="divider-custom">
                     <!-- <div class="divider-custom-line"></div>
@@ -174,40 +179,27 @@
                 <!-- skill  Contents-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                                             
-                            <ul>
-                                Backend
-                                <li>JAVA</li>
-                                <li>Servlet & JSP</li>
-                                <li>Node.js</li>
-                                <li>Spring Framework & MyBatis</li>
-                                <li>Oracle(SQL, PL-SQL)&JDBC</li>
-                            </ul>
-                        
-                            <ul>Frontend
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Javascript</li>
-                                <li>jQUERY</li>
-                                <li>Ajax</li>
-                                <li>Vue.js</li>
-                                <li>React.js</li>
-                            </ul> 
-
-                            <ul>
-                                DBMS
-                                <li>Oracle(SQL, PL-SQL)
-                                    &JDBC
-                                </li>
-                            </ul>
-
-                            <ul>
-
-                            </ul>
-            
-                    </div>
+                        <div>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-1"><a href="#contact">프로젝트 기획서</a></p>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-2"><a href="#contact">일정 계획서</a></p>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-7"><a href="#contact">UI 설계서</a></p>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-3"><a href="#contact">ERD</a></p>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-4"><a href="#contact">네이밍 룰</a></p>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-5"><a href="#contact">클래스 다이어그램</a></p>
+                            <p data-bs-toggle="modal" data-bs-target="#tpj-6"><a href="#contact">프로젝트 디렉토리</a></p>
                         </div>
+                        
+                    <div>
+
+                      </div>
+                    </div>
                 </div>
+                <div data-bs-toggle="modal" data-bs-target="#tpj-0">
+                    <img class="tpj"  src="assets/img/portfolio/메인ui.png"/>
+                    
+                </div>
+                
+            
             </div>
     
         </section>
@@ -441,6 +433,296 @@
                                     SpringBoot / JPA  / Thymeleaf / mariaDB 를 사용한 MVC게시판입니다.
                                     </p>
                                     
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--팀프로젝트 모달0-->
+<div class="portfolio-modal modal fade" id="tpj-0" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="portfolio-item mx-auto">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title ">프로젝트 동영상</h2>
+                            <!-- Icon Divider-->
+                            <div id="item-6"class="divider-custom">
+                                
+                            </div>
+                            <!-- Portfolio Modal - Item-->
+                            <iframe style="width: 700px; height: 500px;" src="https://www.youtube.com/embed/sbc2yBheAbo?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=PYTsWGrxpdU" frameborder="0" allowfullscreen></iframe>
+                            
+                            
+                            <!-- Portfolio Modal - Text-->
+                            <p id="item-text-6">
+                            
+                            </p>
+                        
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!--팀프로젝트 모달-->
+        <div class="portfolio-modal modal fade" id="tpj-1" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">프로젝트기획서</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    <iframe style="width: 100%; height: 900px;"  src="/portfolio/assets/img/portfolio/프로젝트 기획서.png"></iframe>
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    <p id="item-text-6">
+                                    
+                                    </p>
+                                    
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--팀프로젝트 모달2-->
+        <div class="portfolio-modal modal fade" id="tpj-2" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">일정계획서</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    <iframe style="width: 1000px; height: 800px; margin-left: -120px;"  src="/portfolio/assets/img/portfolio/일정계획서.png"></iframe>
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    <p id="item-text-6">
+                                    
+                                    </p>
+                                
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--팀프로젝트 모달3-->
+        <div class="portfolio-modal modal fade" id="tpj-3" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="portfolio-item mx-auto">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title ">ERD</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    <iframe style="width: 1024px; height: 800px;"  src="/portfolio/assets/img/portfolio/ERD.png"></iframe>
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    <p id="item-text-6">
+                                    
+                                    </p>
+                                
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--팀프로젝트 모달4-->
+        <div class="portfolio-modal modal fade" id="tpj-4" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="portfolio-item mx-auto">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title ">네이밍룰</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    <iframe style="width: 660px; height: 800px;"  src="/portfolio/assets/img/portfolio/네이밍룰.png"></iframe>
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    <p id="item-text-6">
+                                    
+                                    </p>
+                                
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--팀프로젝트 모달5-->
+        <div class="portfolio-modal modal fade" id="tpj-5" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="portfolio-item mx-auto">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title ">클래스다이어그램</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    <iframe style="width: 1024px; height: 120px; margin-bottom: 10px;"  src="/portfolio/assets/img/portfolio/클래스다이어그램_full.png"></iframe>
+                                    <iframe style="width: 1024px; height: 500px;"  src="/portfolio/assets/img/portfolio/클래스다이어그램.jpg"></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p id="item-text-6">
+                                    
+                                    </p>
+                                
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--팀프로젝트 모달6-->
+        <div class="portfolio-modal modal fade" id="tpj-6" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="portfolio-item mx-auto">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title ">프로젝트 디렉토리 구조</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    <iframe style="width: 1024px; height: 550px;"  src="/portfolio/assets/img/portfolio/프로젝트 디렉터리 구조.PNG"></iframe>
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    <p id="item-text-6">
+                                    
+                                    </p>
+                                
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+                                            
+        <!--팀프로젝트 모달7 + 슬라이드-->
+        <div class="portfolio-modal modal fade" id="tpj-7" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="portfolio-item mx-auto">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title ">Ui설계서</h2>
+                                    <!-- Icon Divider-->
+                                    <div id="item-6"class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Item-->
+                                    
+                                    
+                                    <!-- Portfolio Modal - Text-->
+                                    
+                                        <div class="slider">
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/1번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/2번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/3번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/4번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/5번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/6번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/7번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/8번.png"></div>
+                                            <div class="slide"><img src="/assets/img/portfolio/팀프로젝트ui설계서이미지/9번.png"></div>
+                                            <a class="prev" onclick="button_click(-1)">&#10094</a>
+                                            <a class="next" onclick="button_click(1)">&#10095</a>
+                                        </div>
+                                    
+                                
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
