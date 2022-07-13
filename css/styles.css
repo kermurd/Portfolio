@@ -11581,11 +11581,12 @@ font-size: 30px;
   cursor: pointer;
   position: absolute;
   top: 50%;
-  
+  text-decoration: none;
   padding:15px;
-  color: red;
+  background-color: #f0f0f0;
+  color: #000;
   font: 20px;
-  border: #000 3px solid;
+  
   
 }
 
